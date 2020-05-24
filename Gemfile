@@ -39,12 +39,14 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # ブートストラップ
 gem 'bootstrap'
 
+
 # slim記法
 gem 'slim-rails'
 gem 'html2slim'
 
 # デバック用
 gem 'better_errors'
+gem 'binding_of_caller'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
